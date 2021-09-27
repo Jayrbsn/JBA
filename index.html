@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBA Test</title>
+
+    <!---Link to stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!---Link to js script-->
+    <script defer src="script.js"></script>
+</head>
+<body> 
+     <!----create div with id to enable js to initialize errorElement variable-->
+    <div id="error"></div>
+
+    <!---Create form to take user input, use post method to post user input to hypothetical database-->
+    <form id="form" action="" method="POST">
+
+        <!---Create div for each input field-->
+        <div>
+            <label for="about">About</label>
+            <input id="about" name="about" type="text" placeholder="tell us about yourself">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input id="address" name="address" type="text" placeholder="enter address">
+        </div>
+        <div>
+            <label for="banner">Banner</label>
+            <input id="banner" name="banner" type="image" placeholder="upload banner image">
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input id="dob" name="dob" type="text" placeholder="enter you date of birth">
+        </div>
+        <div>
+            <label for="documents">Documents</label>
+            <input id="documents" name="documents" type="file" placeholder="upload files">
+        </div>
+        <div>
+            <label for="examNumber">Exam Number</label>
+            <input id="examNumber" name="examNumber" type="text" placeholder="enter exam number">
+        </div>
+        <div>
+            <label for="firstName">Name</label>
+            <input id="firstName" name="firstName" type="text" placeholder="enter first names">
+        </div>
+        <div>
+            <label for="lastName">Surname</label>
+            <input id="lastName" name="lastName" type="text" placeholder="enter surname">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input id="gender" name="gender" type="text" placeholder="enter gender">
+        </div>
+        <div>
+            <label for="hasSiyavulaAccess">SiyavulaAccess</label>
+            <input id="hasSiyavulaAccess" name="hasSiyavulaAccess" type="text" placeholder="Yes/No">
+        </div>
+        <div>
+            <label for="id">Student Number</label>
+            <input id="id" name="id" type="text" placeholder="enter student number">
+        </div>
+        <div>
+            <label for="idNumber">ID Number</label>
+            <input id="idNumber" name="idNumber" type="text" placeholder="enter your ID number">
+        </div>
+        <div>
+            <label for="imei">IMEI</label>
+            <input id="imei" name="imei" type="text" placeholder="enter IMEI">
+        </div>
+        <div>
+            <label for="mobileNr">Cell Number</label>
+            <input id="mobileNr" name="mobileNr" type="text" placeholder="enter cellphone number">
+        </div>
+        <div>
+            <label for="organisation">Organisation</label>
+            <input id="organisation" name="organisation" type="text" placeholder="enter organisation">
+        </div>
+        <div>
+            <label for="profilePic">Profile Pic</label>
+            <input id="profilePic" name="profilePic" type="image">
+        </div>
+        <div>
+            <label for="serialNumber">Serial Number</label>
+            <input id="serialNumber" name="serialNumber" type="text" placeholder="enter serial number">
+        </div>
+        <div>
+            <label for="uniqueId">Unique ID</label>
+            <input id="uniqueId" name="uniqueId" type="text" placeholder="enter unique id">
+        </div>
+        <div>
+            <label for="user">User Number</label>
+            <input id="user" name="user" type="text" placeholder="enter user number">
+        </div>
+        <div>
+            <label for="voucher">Voucher</label>
+            <input id="voucher" name="voucher" type="text" placeholder="enter voucher number if applicable">
+        </div>
+
+        <!---Button object to submit user profile-->
+        <button class="hero-btn" type="submit">Create Profile</button>
+    </form>
+</body>
+</html>

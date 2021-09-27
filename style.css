@@ -1,0 +1,16 @@
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 120px;
+    text-align: left;
+    margin-top: 10px;
+}
+input {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hero-btn{
+    margin: 25px;;
+}
